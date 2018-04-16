@@ -472,7 +472,7 @@ header > .active-header > .buttons{
     color: #49bfef;
     position: relative;
     padding:20px 40px;
-    z-index: -1;
+    z-index: 1;
 }
 
 .hearder-contents > .c-wrapper > .d-search > .domain-search > input.search::placeholder{
@@ -489,6 +489,7 @@ header > .active-header > .buttons{
     cursor: pointer;
     background: #49bfef;
     top: 7px;
+    z-index: 2;
     color: #fff;
     -webkit-border-radius: 70px;
     -moz-border-radius: 70px;
