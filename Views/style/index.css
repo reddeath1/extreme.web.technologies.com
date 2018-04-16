@@ -994,3 +994,28 @@ footer > .f-container > .right-f > .right-r-f > ul > li > a{
 footer > .f-container > .right-f > .right-r-f > ul > li:hover > a{
     color: rgba(255,255,255,1);
 }
+
+@media screen and (max-width:1366px){
+    header > .main-header > .main-header-wrapper{
+        width: 95%;
+    }
+
+    .hearder-contents > .c-wrapper{
+        width: 50%;
+    }
+
+    header > .main-header > .buttons{
+        margin-right: 10px;
+        position: absolute;
+        right: 10px;
+        margin-top: 0px;
+    }
+
+    .container > .container-wrapper{
+        width: 95%;
+    }
+
+    .container > .container-wrapper > .plans > .p-plans > section{
+        width: 200px;
+    }
+}
