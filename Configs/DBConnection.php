@@ -17,7 +17,7 @@ class DBConnection extends Smarty
     protected $DB_USER = 'root';
     protected $DB_PASSOWRD = 'hiddenroute';
     protected $DB_HOST = 'localhost';
-    protected $DB_NAME = 'extreem_db';
+    protected $DB_NAME = 'extreme_db';
 
     public function __construct()
     {
@@ -39,7 +39,7 @@ class DBConnection extends Smarty
         $this->conn->close();
     }
 
-    public function create_db(){
+    private function create_db(){
         try{
             mysqli_report(MYSQLI_REPORT_STRICT);
             $this->conn = new mysqli($this->DB_HOST,$this->DB_USER,$this->DB_PASSOWRD);
